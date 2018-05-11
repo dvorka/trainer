@@ -12,6 +12,7 @@ This document elaborates mangling of section names to links.
 `question`
 
 #   Leading    within and trailing spaces     
+`leading----within-and-trailing-spaces`
 
 # ?
 `` ... empty
