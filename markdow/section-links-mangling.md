@@ -18,4 +18,4 @@ This document elaborates mangling of section names to links.
 `` ... empty
 
 # @$%^&*(
-`` ... empty
+`-1` ... probably GitHub bug (should be empty string)
