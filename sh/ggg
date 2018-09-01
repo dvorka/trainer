@@ -1,0 +1,23 @@
+#!/bin/bash
+
+if [ $# -ne 1 ]
+then
+    echo "Specify a Git command!"
+    exit
+fi
+
+export GIT_OPERATION=${1}
+
+echo "My Markdown MF repository --------------------"
+cd ~/mf && git ${GIT_OPERATION}
+
+echo "MF CPP source ---------------------------"
+cd ~/p/mindforger/git/mindforger && git ${GIT_OPERATION}
+
+echo "MF doc repository -----------------------"
+cd ~/p/mindforger/git/mindforger-repository && git ${GIT_OPERATION}
+
+echo "MF web ------------------------------"
+cd ~/p/mindforger/webs/www.mindforger.com && git ${GIT_OPERATION}
+
+# eof
